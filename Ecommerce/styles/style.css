@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background: skyblue;
+}
+
+.main_wrapper{
+    
+    width: 1000px;  
+/*    height: 800px;*/
+    margin: auto;
+   
+}
+
+.menubar {
+    width: 1000px;
+    height: 50px;
+    height: 50px;
+    margin: auto;
+    background: purple;
+    
+}
+
+.menubar .form{
+    float: right;
+    padding-right: 8px;
+/*    padding-top: 8px;*/
+    line-height: 40px;
+}
+.menubar #menu {
+    padding: 0;
+    margin: 0;
+    line-height: 35px;
+    float: left;
+    
+}
+.menubar #menu li {
+    list-style: none;
+    display: inline;
+/*    background: blue;*/
+/*    float: left;*/
+/*    padding: 50px;*/
+}
+.menubar #menu li:hover{
+    
+    color: orange;
+    text-decoration:underline;
+    font-weight: bolder;
+}
+.menubar #menu a {
+text-decoration: none;
+padding: 5px;
+margin: 3px;
+font-size: 18px;
+font-family: COMIC SANS MS;
+/*text-decoration-color: white;*/
+    color: white;
+}
+
+
+.header_wrapper{
+    width: 1000px;
+    height: 200px;
+    margin: auto;   
+}
+#logo {
+    float: right;
+}
+#banner{
+    float: left;
+}
+
+.content_wrapper {
+    width: 1000px;
+/*    height: 800px;*/
+    background: pink;
+    margin: auto;
+    margin: auto;
+}
+
+#shopping_cart {
+    width: 1000px;
+    height: 40px;
+    background: black;
+    color:white;
+    font-size: 15px;
+    
+}
+
+#area_wrapper {
+    
+    width: 800px;
+    height: -webkit-fill-available;
+    background: white;
+    float: right;
+}
+
+.area_shopping_cart{
+    
+     width: 700px;
+    height: -webkit-fill-available;
+    margin: auto;
+    background: white;
+    float: left;
+    
+}
+
+
+.area_shopping_cart #single_product_cart{
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    background: white;
+    float: left;
+}
+
+#single_product_cart_img{
+    
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+#single_product_cart img{
+  max-width:100%; 
+  max-height:100%;
+  margin:auto;
+  display:block;
+}
+#single_product_cart_price{
+    
+    font-family: fantasy;
+    font-size: 25px;
+    color: cadetblue;
+    margin: 20px;
+    
+    
+}
+
+#sidebar {
+    
+    width: 200px;
+    height: -webkit-fill-available;
+/*    height: 800px;*/
+    margin: auto;
+    background: black;
+    float: left;
+
+}
+
+#sidebar #sidebar_title {
+    
+    background:white;
+    font-size: 22px;
+    font-family: arial;
+    color:black;
+    padding: 10px;
+     text-align: center;
+}
+
+#cats {
+    
+    text-align: center;
+    font-family: COMIC SANS MS;
+    font-size: 18px;
+    
+}
+
+#cats li {
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    background: black;
+    color:white;
+    
+}
+
+#cats a{
+    text-decoration: none;
+}
+#cats a:hover {
+    
+/*    color: blueviolet;*/
+    font-weight: bolder;
+     text-decoration:underline;
+}
+
+#products_box {
+    
+    width:780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#single_product{
+    
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    
+}
+#single_product img{
+border: 5px solid black;
+}
+.single_product_btn{
+    
+    align-content: center;
+}
+
+#footer {
+    
+    width: 1000px;
+    height: 100px;
+   
+    background: white;
+    margin: auto;
+    clear: both;
+/*    clear: both;*/
+}
