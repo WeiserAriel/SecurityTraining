@@ -1,6 +1,6 @@
 #!/usr/bin/python
 '''
-#writing by Ariel Weiser 2018
+#written by Ariel Weiser 2018
 '''
 
 import optparse
